@@ -30,7 +30,7 @@ export default function Weather() {
             <div className="row">
                 <div className="col-6">
                     <img 
-                        src="https://www.awxcdn.com/adc-assets/images/weathericons/18.svg" 
+                        src="https://www.awxcdn.com/adc-assets/images/weathericons/18.svg" alt="cloudy"
                     />
                     6 F
                 </div>
