@@ -14,8 +14,8 @@ export default function WeatherInfo(props) {
             <div className="row mt-3">
                 <div className="col-6">
                     <img 
-                        src="https://www.awxcdn.com/adc-assets/images/weathericons/18.svg" alt="cloudy"
-                    />
+                        src={props.data.icon}
+                        alt={props.data.description} />
                     <span className="temperature">{Math.round(props.data.temperature)}</span>
                     <span className="unit">°F</span>
                 </div>
