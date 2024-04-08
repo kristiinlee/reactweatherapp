@@ -1,0 +1,8 @@
+.DailyForecast {
+    text-align: center;
+}
+
+.ForecastTempMin {
+    opacity: 0.6;
+    margin-left: 5px;
+}
