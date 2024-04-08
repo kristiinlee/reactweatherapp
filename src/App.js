@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
     
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Detroit" />
         <footer>
           This page was coded by <a href="https://github.com/kristiinlee" target="_blank" rel="noreferrer">Kristin Jones</a> and open-sourced on <a href="https://github.com/kristiinlee/reactweatherapp" target="_blank" rel="noreferrer">Github</a>
         </footer>
