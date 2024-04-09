@@ -18,8 +18,6 @@ export default function DailyForecast(props) {
         setLoaded(true);
     }
 
-
-
     if (loaded) {
         console.log(forecast);
         return (
